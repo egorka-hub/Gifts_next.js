@@ -1,0 +1,40 @@
+.main {
+  background-color: #252424;
+  height: auto;
+  z-index: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+.swiper {
+  height: auto;
+}
+
+.slider {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+.header {
+  padding: 50px 0 117px;
+  position: relative;
+  z-index: 2;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.upWave {
+  position: absolute;
+  z-index: 1;
+  transition: all ease-in .2s;
+}
+
+.downWave {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  transition: all ease-in .2s;
+}

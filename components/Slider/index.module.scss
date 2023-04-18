@@ -1,0 +1,70 @@
+.wrapper {
+  position: relative;
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 300px;
+
+  :global .swiper-next-btn {
+    position: relative;
+    z-index: 50;
+
+    img {
+      transform: rotateY(180deg);
+    }
+  }
+
+  :global .swiper-prev-btn {
+    position: relative;
+    z-index: 50;
+  }
+
+  @media (max-width: 768px) {
+    margin-bottom: 200px;
+    margin-top: 50px;
+  }
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100px;
+}
+
+.swiper {
+  padding: 20px;
+  max-width: 400px;
+}
+
+.background {
+  position: absolute;
+  top: -64px;
+  width: 100%;
+}
+
+.btn {
+  position: relative;
+  z-index: 50;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    img {
+      width: 80%;
+    }
+  }
+}
+
+
